@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "个人网站 - Apple风格设计",
-  description: "一个充满创意的个人网站，展示我的技能、经历和兴趣爱好",
+  title: "Liam Cai - 前端开发工程师",
+  description: "Liam Cai的个人网站，前端开发工程师，专精HTML、CSS、JavaScript、React、Vue、Next.js",
 };
 
 export default function RootLayout({

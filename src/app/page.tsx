@@ -38,7 +38,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div className="text-xl font-semibold">
-              个人网站
+              Liam Cai
             </div>
             <div className="flex space-x-6">
               <Link href="/" className="text-blue-400">首页</Link>
@@ -65,11 +65,11 @@ export default function Home() {
           </div>
           
           <h1 className="text-6xl md:text-8xl font-thin mb-6 fade-in-up">
-            你好，我是 <span className="gradient-text">开发者</span>
+            你好，我是 <span className="gradient-text">Liam Cai</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-400 mb-12 max-w-3xl mx-auto fade-in-up">
-            一名充满激情的全栈开发者，致力于创造优雅、实用的数字体验
+            一名充满激情的前端开发工程师，专注于创造优雅、实用的用户界面
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center fade-in-up">
@@ -108,19 +108,19 @@ export default function Home() {
               {
                 icon: "💻",
                 title: "前端开发",
-                description: "精通 React、Vue、Next.js 等现代前端框架，创建响应式和交互式用户界面",
+                description: "精通 HTML、CSS、JavaScript，熟练使用 React、Vue、Next.js 等现代前端框架",
                 color: "from-blue-500 to-cyan-500"
               },
               {
-                icon: "⚙️",
-                title: "后端开发", 
-                description: "熟悉 Node.js、Python、数据库设计和 API 开发，构建稳定可靠的后端服务",
+                icon: "⚛️",
+                title: "React 生态", 
+                description: "深度掌握 React 及其生态系统，包括状态管理、路由、构建工具等",
                 color: "from-green-500 to-teal-500"
               },
               {
                 icon: "🎨",
-                title: "UI/UX 设计",
-                description: "注重用户体验设计，使用 Figma 等工具创建直观美观的界面设计",
+                title: "现代 CSS",
+                description: "熟练运用现代 CSS 技术，包括 Flexbox、Grid、动画和响应式设计",
                 color: "from-purple-500 to-pink-500"
               }
             ].map((skill, index) => (
@@ -237,7 +237,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="py-12 border-t border-gray-800">
         <div className="max-w-6xl mx-auto px-4 text-center text-gray-400">
-          <p>&copy; 2024 个人网站. 用心创造，用爱分享.</p>
+          <p>&copy; 2024 Liam Cai. 用心创造，用爱分享.</p>
         </div>
       </footer>
     </div>
