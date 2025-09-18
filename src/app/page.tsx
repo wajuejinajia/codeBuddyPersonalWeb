@@ -198,7 +198,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-4 text-center scroll-section">
           <div className="glass rounded-3xl p-16">
             <h2 className="text-4xl md:text-5xl font-light mb-8 gradient-text">
-              "Stay hungry, stay foolish"
+              &ldquo;Stay hungry, stay foolish&rdquo;
             </h2>
             <p className="text-xl text-gray-400 leading-relaxed">
               保持饥饿，保持愚蠢。永远对新知识保持渴望，

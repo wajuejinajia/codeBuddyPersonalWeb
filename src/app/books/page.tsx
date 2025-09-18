@@ -188,7 +188,7 @@ export default function Books() {
                       <div className="bg-gray-900/50 rounded-lg p-3">
                         <h5 className="text-xs font-medium text-purple-400 mb-1">核心观点：</h5>
                         <p className="text-gray-300 text-sm italic">
-                          "{book.keyInsight}"
+                          &ldquo;{book.keyInsight}&rdquo;
                         </p>
                       </div>
                     </div>
@@ -209,7 +209,7 @@ export default function Books() {
             </h2>
             <div className="space-y-6 text-lg text-gray-300">
               <p>
-                "读书不是为了雄辩和驳斥，也不是为了轻信和盲从，而是为了思考和权衡。"
+                &ldquo;读书不是为了雄辩和驳斥，也不是为了轻信和盲从，而是为了思考和权衡。&rdquo;
               </p>
               <p className="text-gray-400">
                 我相信好书能够拓展思维边界，挑战既有观念，启发新的思考。

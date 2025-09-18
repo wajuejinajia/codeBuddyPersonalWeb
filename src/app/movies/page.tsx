@@ -136,7 +136,7 @@ export default function Movies() {
                     <div className="border-t border-gray-700 pt-4">
                       <h4 className="text-sm font-medium text-blue-400 mb-2">为什么喜欢：</h4>
                       <p className="text-gray-400 text-sm leading-relaxed italic">
-                        "{movie.reason}"
+                        &ldquo;{movie.reason}&rdquo;
                       </p>
                     </div>
                   </div>
@@ -152,7 +152,7 @@ export default function Movies() {
         <div className="max-w-4xl mx-auto px-4">
           <div className="glass rounded-3xl p-12">
             <h2 className="text-4xl font-light mb-8 gradient-text">
-              "电影是梦境的语言"
+              &ldquo;电影是梦境的语言&rdquo;
             </h2>
             <p className="text-xl text-gray-400 leading-relaxed">
               每一部好电影都是一扇窗，让我们看到不同的世界，体验不同的人生。

@@ -187,7 +187,7 @@ export default function Sports() {
                       </div>
                       <div>
                         <h4 className="text-lg font-medium text-purple-400 mb-2">难忘时刻</h4>
-                        <p className="text-gray-300 leading-relaxed italic">"{team.favoriteMemory}"</p>
+                        <p className="text-gray-300 leading-relaxed italic">&ldquo;{team.favoriteMemory}&rdquo;</p>
                       </div>
                     </div>
                   </div>
@@ -203,7 +203,7 @@ export default function Sports() {
         <div className="max-w-4xl mx-auto px-4">
           <div className="glass rounded-3xl p-12">
             <h2 className="text-4xl font-light mb-8 gradient-text">
-              "运动教会我的不仅仅是技能"
+              &ldquo;运动教会我的不仅仅是技能&rdquo;
             </h2>
             <p className="text-xl text-gray-400 leading-relaxed">
               团队合作、坚持不懈、面对失败、追求卓越——
