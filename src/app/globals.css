@@ -8,7 +8,7 @@
   --apple-light-gray: #F2F2F7;
 }
 
-[data-theme="dark"] {
+.dark {
   --background: #000000;
   --foreground: #f5f5f7;
   --apple-light-gray: #1c1c1e;
@@ -74,7 +74,7 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-[data-theme="dark"] .glass {
+.dark .glass {
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -85,7 +85,7 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-[data-theme="light"] .glass-dark {
+.light .glass-dark {
   background: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
