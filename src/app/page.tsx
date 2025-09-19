@@ -29,7 +29,7 @@ export default function Home() {
       <section className="py-32">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h1 className="text-4xl md:text-6xl font-light mb-8 tracking-tight">
-            Hello, I'm <em className="not-italic text-amber-700">Liam</em>
+            Hello, I&apos;m <em className="not-italic text-amber-700">Liam</em>
           </h1>
           
           <p className="text-lg md:text-xl text-amber-700 mb-16 max-w-2xl mx-auto leading-relaxed">
@@ -105,7 +105,7 @@ export default function Home() {
               },
               {
                 title: "Sports",
-                description: "Athletic activities and sports I'm passionate about",
+                description: "Athletic activities and sports I&apos;m passionate about",
                 href: "/sports"
               },
               {
@@ -139,10 +139,10 @@ export default function Home() {
       <section className="py-24 text-center border-t border-gray-200 dark:border-gray-700">
         <div className="max-w-3xl mx-auto px-6">
           <h2 className="text-2xl font-light mb-8">
-            Let's Work Together
+            Let&apos;s Work Together
           </h2>
           <p className="text-amber-700 mb-12 max-w-xl mx-auto">
-            Ready to bring your ideas to life? Let's discuss your next project and create something amazing together.
+            Ready to bring your ideas to life? Let&apos;s discuss your next project and create something amazing together.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 

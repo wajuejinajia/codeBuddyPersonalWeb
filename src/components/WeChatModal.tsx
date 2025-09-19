@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import { createPortal } from "react-dom";
+import Image from "next/image";
 
 interface WeChatModalProps {
   isOpen: boolean;
@@ -82,9 +83,11 @@ export function WeChatModal({ isOpen, onClose, wechatId }: WeChatModalProps) {
         <div className="p-6 text-center">
           {/* QR Code */}
           <div className="w-48 h-48 mx-auto mb-6 bg-white border-2 border-amber-200 rounded-xl overflow-hidden shadow-inner">
-            <img 
+            <Image 
               src="/wechat-qr.jpg" 
               alt="WeChat QR Code"
+              width={192}
+              height={192}
               className="w-full h-full object-cover"
             />
           </div>
